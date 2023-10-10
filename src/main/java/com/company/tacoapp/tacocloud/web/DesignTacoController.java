@@ -8,11 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
-import com.company.tacoapp.tacocloud.Ingredient;
 import com.company.tacoapp.tacocloud.Ingredient.Type;
 import com.company.tacoapp.tacocloud.Taco;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
